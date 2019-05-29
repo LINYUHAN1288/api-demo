@@ -23,6 +23,9 @@ func init() {
 		),
 	)
 	beego.AddNamespace(ns)
+<<<<<<< HEAD
 	// 设置路由
 	beego.Router("/:type", &controllers.HttplibController{}, "get:Get;post:Post")
+=======
+>>>>>>> da5c6131c4b20775664dc9fee76bc60f3b1638d2
 }
